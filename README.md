@@ -37,12 +37,22 @@ authentication).
 
 ###### What It Has and What It Doesn't
 - [x] Read-only-save Feature
-- [X] RW-save Feature
+- [x] RW-save Feature
 - [x] Comments Section
 - [ ] Restructuring into appropriate components (Sorry for the cringe!)
 - [ ] Decent Looks ( Not the excuse for minimalism!)
 - [ ] E2Es 
-- [ ] Things that I cannot see 'cuz of naivity!
+- [x] Things that I cannot see 'cuz of naivity!
+
+## How To Use
+
+Run the following in the order
+
+- Open a terminal and start `mongod` server at the default port (27017)
+- Open up another terminal. Navigate to the `bfore` folder.
+- Run `node server`.
+- Fire up the browser and hit `http://localhost:3000`
+
 
 > This project was developed for my course **Advanced Web Technologies** of VIIth semester at BMSCE, Bangalore.
 
