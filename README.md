@@ -33,7 +33,12 @@ authentication).
 - MongoDB Enterprise v3.4.9
 - npm v5.5.1
 - node v9.1.0
-- Bunch of node modules that I don't remember!
+- express
+- body-parser
+- [nthline](https://www.npmjs.com/package/node-nthline)
+- jQuery  - duh!
+
+Unused modules - bootbox and popups
 
 ###### What It Has and What It Doesn't
 - [x] Read-only-save Feature
@@ -42,6 +47,7 @@ authentication).
 - [ ] Restructuring into appropriate components (Sorry for the cringe!)
 - [ ] Decent Looks ( Not the excuse for minimalism!)
 - [ ] E2Es 
+- [ ] Icon file
 - [x] Things that I cannot see 'cuz of naivity!
 
 ## How To Use
