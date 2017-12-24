@@ -54,11 +54,15 @@ Unused modules - bootbox and popups
 
 Run the following in the order
 
-- Open a terminal and start `mongod` server at the default port (27017)
+- Open a terminal and start `mongod` server at the default port (27017). Ensure that you have `\data\db` in the same drive (Windows).
+- It's safer to reference the db first by command `use bfore`.
 - Open up another terminal. Navigate to the `bfore` folder.
-- Run `node server`.
+- Download dependencies using `npm start`
+- Run `ng build` to build up static files under `\dist` folder and then `node server`to fetch those. (Readymade use)
+- Or, run `ng serve` (for development use for live reload).
 - Fire up the browser and hit `http://localhost:3000`
 
+##
 
 > This project was developed for my course **Advanced Web Technologies** of VIIth semester at BMSCE, Bangalore.
 
